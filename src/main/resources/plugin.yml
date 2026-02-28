@@ -1,0 +1,22 @@
+name: OuterKill
+version: 1.0.0
+main: dev.qwerty.outerkill
+api-version: '1.21'
+author: Qwertydev
+depend: [WorldEdit]
+description: External boundary protection system based on WorldEdit selections
+
+commands:
+  okill:
+    description: OuterKill management commands
+    usage: /okill <toggle|reload>
+    permission: outerkill.admin
+    aliases: [ok]
+
+permissions:
+  outerkill.admin:
+    description: Access to all OuterKill commands
+    default: op
+  outerkill.bypass:
+    description: Bypass boundary protection
+    default: false
