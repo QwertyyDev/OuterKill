@@ -1,6 +1,6 @@
 name: OuterKill
 version: 1.0.1
-main: dev.qwerty.outerkill
+main: dev.qwerty.outerkill.OuterKill
 api-version: '1.21'
 author: Qwertydev
 depend: [WorldEdit]
