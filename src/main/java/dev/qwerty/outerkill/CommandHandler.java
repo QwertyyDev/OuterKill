@@ -122,8 +122,7 @@ public class CommandHandler implements CommandExecutor {
 
         plugin.getConfigManager().setProtectionEnabled(newState);
 
-        String status = newState ? "§aENABLED" : "§cDISABLED";
-        sender.sendMessage("§7Protection system is now " + status);
+        sender.sendMessage(newState ? "ENABLED" : "DISABLED");
     }
 
     private void handleReload(CommandSender sender) {
